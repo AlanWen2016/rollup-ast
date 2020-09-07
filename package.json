@@ -1,0 +1,23 @@
+{
+  "name": "my-rollup-project",
+  "version": "1.0.0",
+  "description": "```\r rollup src/main.js -o bundle.js -f cjs",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.11.5",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.20",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
