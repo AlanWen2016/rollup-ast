@@ -25,6 +25,6 @@
     }
   });
 
-  console.log(ast);
+  console.dir(ast);
 
 })));

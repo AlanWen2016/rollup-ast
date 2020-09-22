@@ -18,4 +18,4 @@ traverse(ast, {
   }
 });
 
-console.table(ast)
+console.info(ast)
